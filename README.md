@@ -1,15 +1,15 @@
 # Dockerfile for Apache ActiveMQ
 This is basic `docker` image for `Apache ActiveMQ`. Please see the [Apache ActiveMQ](http://activemq.apache.org/) for details.
 
-# Usage
+## Usage
 You need to `build` the image and then `run` it.
 
-## Build
+### Build
 To build the image, following command is enough.
 
     docker build -t activemq .
 
-## Run
+### Run
 In order to start `activemq` process you have to specify `Xms` and `Xmx` values while running `docker`, by passing those as a `ENVIRONMENT` variable.
 
 Please see the example below:
